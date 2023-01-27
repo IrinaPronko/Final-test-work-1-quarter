@@ -5,8 +5,8 @@ int count = 0;
 string[] arrData = new string[m];
 string[] arrRes = new string[m];
 arrData = Read_Arr(m);
-Search3sim(arrData, arrRes);
 Print1DArr("Сгенерированный массив:", arrData);
+Search3sim(arrData, arrRes);
 if (count != 0)
 {
     m = count;
