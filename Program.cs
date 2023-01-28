@@ -1,6 +1,12 @@
 ﻿// Программа выбора значений из массива значений менее или равна 3 символам
 // основная программа
+N:
 int m = ReadData("Введите количество значений массива --->  ");
+if (m <= 0)
+{
+    Console.WriteLine("Неверно задана длина массива");
+    goto N;
+}
 int count = 0;
 string[] arrData = new string[m];
 string[] arrRes = new string[m];
